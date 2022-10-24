@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.div1{
+    width: 250px;
+    height: 100px;
+    background-color: rgb(255, 173, 173) ;
+    animation: change 3s  ease-out   alternate forwards;
+}
+@keyframes change{
+0%{width: 250px;}
+100%{width: 100%;} 
+}
+.div2{
+    width: 250px;
+    height: 100px;
+    background-color: rgb(155, 246, 255);
+    margin-left: auto;
+    animation: change 3s  ease-out 3s  alternate forwards;
+}
+@keyframes change{
+    0%{width: 250px;}
+    100%{width: 100%;}
+}
+.div3{
+    width: 250px;
+    height: 100px;
+    background-color: rgb(195, 124, 218);
+    animation: change 3s  ease-out 6s  alternate forwards;
+}
+@keyframes change{
+    0%{width: 250px;}
+    100%{width: 100%;}
+}
+.div4{
+    width: 250px;
+    height: 100px;
+    background-color: rgb(115, 143, 187);
+    margin-left: auto;
+    animation: change 3s  ease-out 9s  alternate forwards;
+}
+@keyframes change{
+    0%{width: 250px;}
+    100%{width: 100%;}
+}
+.div5{
+    width: 250px;
+    height: 100px;
+    background-color: rgb(73, 135, 132);
+    animation: change 3s  ease-out 12s  alternate forwards;  
+}
+@keyframes change{
+    0%{width: 250px;}
+    100%{width: 100%;}
+}
+.div6{
+    width: 250px;
+    height: 100px;
+    background-color: rgb(154, 78, 154);
+    margin-left: auto;
+    animation: change 3s  ease-out 15s  alternate forwards;
+}
+@keyframes change{
+    0%{width: 250px;}
+    100%{width: 100%;}
+}
+.div7{
+    width: 250px;
+    height: 100px;
+    background-color: rgb(236, 160, 255);
+    animation: change 3s  ease-out 18s  alternate forwards;
+}
+@keyframes change{
+    0%{width: 250px;}
+    100%{width: 100%;}
+}
+.div8{
+    width: 250px;
+    height: 100px;
+    background-color: rgb(209, 111, 141);
+    margin-left: auto;
+    animation: change 3s  ease-out 21s  alternate forwards;
+}
+@keyframes change{
+    0%{width: 250px;}
+    100%{width: 100%;}  
+}
